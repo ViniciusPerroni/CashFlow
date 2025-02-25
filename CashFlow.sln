@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CashFlow.Domain", "src\Cash
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CashFlow.Application", "src\CashFlow.Application\CashFlow.Application.csproj", "{BE158AF4-31ED-4D06-AF46-DB38804C6D44}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CashFlow.Data", "CashFlow.Data\CashFlow.Data.csproj", "{998A8D98-C9B4-483A-8420-A50A5EF161CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CashFlow.Data", "src\CashFlow.Data\CashFlow.Data.csproj", "{998A8D98-C9B4-483A-8420-A50A5EF161CF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{F9E954EF-5B0C-41A2-8F36-1C5B75129E01}"
 EndProject
