@@ -6,13 +6,13 @@ Esta é uma solução para lançamentos financeiros que permite o registro de en
 
 O diagrama de fluxo de dados a seguir apresenta as principais processos que a API realiza:
 
-![](doc\DFD.png)
+![](doc/DFD.png)
 
 A solução foi estruturada em duas APIs: uma para o registro de lançamentos financeiros e outra para a geração do relatório consolidado diário, ambas compartilhando a mesma base de dados. Para garantir maior resiliência e escalabilidade, recomenda-se a implantação utilizando os serviços de Web Apps do Azure em conjunto com o Azure SQL Database.
 
 Abaixo, segue uma representação gráfica da arquitetura proposta:
 
-![](doc\diagramaDeArquitetura.png)
+![](doc/diagramaDeArquitetura.png)
 
 
 
