@@ -7,11 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\CashFlow.Crosscutting\CashFlow.Crosscutting.csproj" />
-    <ProjectReference Include="..\src\CashFlow.Domain\CashFlow.Domain.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
     <PackageReference Include="Dapper" Version="2.1.66" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.2" />
@@ -25,6 +20,11 @@
 
   <ItemGroup>
     <Folder Include="Migrations\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CashFlow.Crosscutting\CashFlow.Crosscutting.csproj" />
+    <ProjectReference Include="..\CashFlow.Domain\CashFlow.Domain.csproj" />
   </ItemGroup>
 
 </Project>

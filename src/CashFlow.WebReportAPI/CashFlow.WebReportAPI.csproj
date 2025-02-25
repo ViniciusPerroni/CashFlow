@@ -21,10 +21,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\CashFlow.Data\CashFlow.Data.csproj" />
     <ProjectReference Include="..\CashFlow.Application\CashFlow.Application.csproj" />
     <ProjectReference Include="..\CashFlow.Configuration\CashFlow.Configuration.csproj" />
     <ProjectReference Include="..\CashFlow.Crosscutting\CashFlow.Crosscutting.csproj" />
+    <ProjectReference Include="..\CashFlow.Data\CashFlow.Data.csproj" />
   </ItemGroup>
 
 </Project>
