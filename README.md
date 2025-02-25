@@ -22,7 +22,7 @@ Além disso, foram escritos testes unitários para cada um dos principais tipos 
 
 
 
-**"### 🛠 Instruções para rodar a solução**
+**🛠 Instruções para rodar a solução**
 
 1. **Crie uma base de dados no SQL Server.**
 
